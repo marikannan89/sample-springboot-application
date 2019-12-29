@@ -30,7 +30,7 @@ public class AccountEntity {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "account_id",unique = true, nullable = false)
+    @Column(name = "account_id")
     private Long accountId;
 	private String userId;
     private String totalDataBalance;
